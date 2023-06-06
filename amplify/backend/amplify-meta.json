@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-capstoneproject-dev-105738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::484205601399:role/amplify-capstoneproject-dev-105738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::484205601399:role/amplify-capstoneproject-dev-105738-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-capstoneproject-dev-105738-deployment",
+      "UnauthRoleName": "amplify-capstoneproject-dev-105738-unauthRole",
+      "StackName": "amplify-capstoneproject-dev-105738",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:484205601399:stack/amplify-capstoneproject-dev-105738/00267050-dcd4-11ed-a333-0ae07eabfc7e",
+      "AmplifyAppId": "d26w9tyyhcb5de"
+    }
+  },
+  "auth": {
+    "capstoneprojectb8f011e7": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-capstoneproject-dev-105738-deployment/amplify-cfn-templates/auth/capstoneprojectb8f011e7-cloudformation-template.json",
+        "logicalId": "authcapstoneprojectb8f011e7"
+      },
+      "lastPushTimeStamp": "2023-04-17T04:38:19.445Z",
+      "output": {
+        "UserPoolId": "ap-southeast-1_iDnpkeHqv",
+        "AppClientIDWeb": "67sinpeco5t3seo3o0cgnpqdhu",
+        "AppClientID": "tpaa07dls9cc9omf9724nrtdi",
+        "IdentityPoolId": "ap-southeast-1:9783522c-2263-4c2b-94e8-370105542d7f",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-1:484205601399:userpool/ap-southeast-1_iDnpkeHqv",
+        "IdentityPoolName": "capstoneprojectb8f011e7_identitypool_b8f011e7__dev",
+        "UserPoolName": "capstoneprojectb8f011e7_userpool_b8f011e7"
+      },
+      "lastPushDirHash": "WiJsywL7x41RIBvTMORT1gG4bq4="
+    }
+  }
+}
